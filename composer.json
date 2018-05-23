@@ -8,5 +8,20 @@
             "email": "hello@lucagarbin.it"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GarbinLuca\\FattureInCloud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GarbinLuca\\FattureInCloud\\FattureInCloudServiceProvider"
+            ],
+            "aliases": {
+                "FattureInCloud": "GarbinLuca\\FattureInCloud\\FattureInCloudFacade"
+            }
+        }
+    }
 }
