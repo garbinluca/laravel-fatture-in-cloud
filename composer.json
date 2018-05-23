@@ -1,0 +1,12 @@
+{
+    "name": "garbinluca/laravel-fatture-in-cloud",
+    "description": "Laravel Package for FattureInCloud.it",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Luca Garbin",
+            "email": "hello@lucagarbin.it"
+        }
+    ],
+    "require": {}
+}
