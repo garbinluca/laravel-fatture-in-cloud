@@ -6,7 +6,7 @@ use GarbinLuca\FattureInCloud\Auth;
 
 class FattureInCloud {
 
-    private $auth;
+    protected $auth;
 
     public function __construct()
     {
